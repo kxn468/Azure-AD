@@ -1,0 +1,10 @@
+<div>  
+    Message : <h2>{{message}}</h2>  
+    <input type="button" value="Show Alert" (click)="showAlert()"/>  
+    <br/><br/>  
+    Provide Full Name : <input type="text" [(ngModel)]="data.name">  
+    <br/>  
+    Provide Email Id : <input type="email" [(ngModel)]="data.email">  
+    <br>  
+    <input type="button" value="Sign Up" (click)="onSubmit()"/>  
+</div> 
